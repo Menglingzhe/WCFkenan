@@ -1,0 +1,456 @@
+/*背景图片*/
+body{
+    background-image: url(../img/墙.png);
+}
+/*登录注册*/
+.person{
+    height: 30px;
+    position: absolute;
+    left: 1370px;
+    top: 130px;
+    z-index: 100;
+}
+
+.person a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: rgb(13, 59, 129);
+    font-size: 25px;
+    padding: 0px 5px;
+}
+
+.person a:hover{
+    color: #ce3636;
+}
+
+.person span{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #777777;
+    font-size: 25px;
+}
+/*导航栏*/
+.nav{
+    height: 50px;
+    background-color:#e8e7e3;
+    z-index: 100;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 3);
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-size: 25px;
+    padding: 0px 37.5px;
+}
+
+.nav li{
+    float: left;
+    line-height: 50px;
+}
+
+.nav a:hover{
+    background-color: #3f3f3f;
+    color: #e8e7e3;
+}
+/*回到顶部*/
+.huizhang {
+    position: fixed;
+    left: 94%;
+    top: 81%;
+    z-index: 100;
+}
+
+.kenantubiao{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.kenantubiao img{
+    height: 108px;
+    width: 344.8px;
+}
+
+.zhenxiang {
+    position: absolute;
+    left: 390px;
+    top: 43px;
+}
+/*字体*/
+@font-face {
+    font-family: 'yuweixingshu';
+    src: url('../font/禹卫书法行书简体.TTF');
+}
+
+@font-face {
+    font-family: 'hanyiyaya';
+    src: url('../font/汉仪丫丫体简.TTF');
+}
+
+@font-face {
+    font-family: 'COURGETTE-REGULAR';
+    src: url('../font/COURGETTE-REGULAR.TTF');
+}
+
+@font-face {
+    font-family: 'hanyilihei';
+    src: url('../font/汉仪立黑简.TTF');
+}
+
+@font-face {
+    font-family: 'CABINSKETCH-REGULAR';
+    src: url('../font/CABINSKETCH-REGULAR.TTF');
+}
+
+.box1 {
+    position: absolute;
+    top: 80px;
+    height: 100%;
+    width: 100%;
+    z-index: inherit 0;
+}
+/*人物定位*/
+#a1 {position: absolute;
+    left: 516px;
+    top: 66px;
+    z-index: inherit 1;
+}
+#a2 {position: absolute;
+    left: 761px;
+    top: 39px;
+    z-index: inherit 2;
+}
+#a3 {position: absolute;
+    left: 920px;
+    top: 77px;
+    z-index: inherit 3;
+}
+#a4 {position: absolute;
+    left: 638px;
+    top: 51px;
+    z-index: inherit 4;
+}
+#a5 {position: absolute;
+    left: 698px;
+    top: 122px;
+    z-index: inherit 5;
+}
+#a6 {position: absolute;
+    left: 569px;
+    top: 96px;
+    z-index: inherit 6;
+}
+#a7 {position: absolute;
+    left: 968px;
+    top: 192px;
+    z-index: inherit 7;
+}
+#a8 {position: absolute;
+    left: 560px;
+    top: 180px;
+    z-index: inherit 8;
+}
+#a9 {position: absolute;
+    left: 596px;
+    top: 168px;
+    z-index: inherit 9;
+}
+#a10 {position: absolute;
+    left: 445px;
+    top: 162px;
+    z-index: inherit 10;
+}
+#a11 {position: absolute;
+    left: 403px;
+    top: 190px;
+    z-index: inherit 11;
+}
+#a12 {position: absolute;
+    left: 510px;
+    top: 226px;
+    z-index: inherit 12;
+}
+#a13 {position: absolute;
+    left: 860px;
+    top: 151px;
+    z-index: inherit 13;
+}
+#a14 {position: absolute;
+    left: 730px;
+    top: 177px;
+    z-index: inherit 14;
+}
+#a15 {position: absolute;
+    left: 914px;
+    top: 174px;
+    z-index: inherit 15;
+}
+#a16 {position: absolute;
+    left: 792px;
+    top: 187px;
+    z-index: inherit 16;
+}
+#a17 {position: absolute;
+    left: 758px;
+    top: 237px;
+    z-index: inherit 17;
+}
+#a18 {position: absolute;
+    left: 840px;
+    top: 255px;
+    z-index: inherit 18;
+}
+#a19 {position: absolute;
+    left: 660px;
+    top: 233px;
+    z-index: inherit 19;
+}
+#a20 {position: absolute;
+    left: 416px;
+    top: 276px;
+    z-index: inherit 20;
+}
+#a21 {position: absolute;
+    left: 575px;
+    top: 267px;
+    z-index: inherit 21;
+}
+#a22 {position: absolute;
+    left: 852px;
+    top: 315px;
+    z-index: inherit 22;
+}
+#a23 {position: absolute;
+    left: 555px;
+    top: 429px;
+    z-index: inherit 23;
+}
+#a24 {position: absolute;
+    left: 867px;
+    top: 510px;
+    z-index: inherit 24;
+}
+#a25 {position: absolute;
+    left: 743px;
+    top: 417px;
+    z-index: inherit 25;
+}
+#a26 {position: absolute;
+    left: 794px;
+    top: 508px;
+    z-index: inherit 26;
+}
+#a27 {position: absolute;
+    left: 658px;
+    top: 464px;
+    z-index: inherit 27;
+}
+/*鼠标悬浮时突出变大*/
+.box1 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.box1 article{
+    display: none;
+}
+/*叉号位置*/
+#d1{
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.box1 input[name="information"]:checked~article{
+    display: block;
+}
+
+.box1 input[name="information1"]:checked~article{
+    display: block;
+}
+
+.bb1{
+    height: 800px;
+    width: 390px;
+   
+    position: relative;
+    top: 30px;
+    left: 5px;
+    z-index: 28;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    overflow: hidden;
+}
+/*将两个单选按钮隐藏*/
+#b1{
+    width: 0px;
+}
+
+#c1{
+    width: 0px;
+}
+/*叉号*/
+.bb2{
+    height: 650px;
+    width: 390px;
+    background-color: lightgrey;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    z-index: 28;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+#b2{
+    width: 0px;
+}
+
+#c2{
+    width: 0px;
+}
+
+/*二维码*/
+.box2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 1200px;
+    top: 200px;
+}
+
+.box2 h1{
+    margin-top: -10px;
+    margin-left: 20%;
+    font-size: 30px;
+    font-family: yuweixingshu;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 1200px;
+    top: 500px;
+}
+
+/*人物介绍*/
+.box1 li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.box1 ul {
+    width: 1040px;
+    height: 500px;
+     margin: 100px auto;
+
+}
+.box1 ul li {
+    margin-top: px;
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    width: 280px;
+    height: 560px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 2px 3px 1px  rgba(0,0,0,.1);
+    transition: all .5s;
+}
+.box1 ul li h3 {
+    margin-top: 100px;
+    text-align: center;
+}
+.box1 ul li span {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+.box1 ul li .hr {
+    margin-top: 25px;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+.box1 ul li p {
+    font-size: 14px;
+}
+
+.box1 h2{
+    font-size: 20px;
+    color:#777777;
+    margin-top: 20px;
+}
+
+.box1 ul li .hr_2 {
+    margin-top: 65px;
+    width: 100%;
+    height: 2px;
+    background: rgba(0,0,0,.1);
+}
+.box1 ul li  a{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    width: 137px;
+    height: 50px;
+    transition: all .3s;
+    border-radius: 20px;
+    
+}
+.box1 ul li a:hover{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transform: scale(1.2);
+} 
+.box1 ul li:hover {
+    transform: scale(1.1);
+}
+.box1 ul li .tx{
+    box-shadow: 1px 1px 5px 1px  rgba(0,0,0,.1);
+    position: absolute;
+    top: -80px;
+    left: 65px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all .3s;
+}
+.box1 ul li .tx img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    display: block;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+.box1 ul li .tx:hover {
+    transform: scale(1.1) rotateZ(360deg);
+}
+
+.footer{
+    position: absolute;
+    top: 840px;
+	width:100%; 
+	height:120px; 
+	line-height:60px; 
+	text-align:center; 
+	background:#463c52; 
+	color:#FFF;
+}

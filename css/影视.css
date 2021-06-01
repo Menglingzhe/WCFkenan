@@ -1,0 +1,292 @@
+/*背景图片*/
+body{
+    background-image: url(../img/墙.png);
+}
+/*登录注册*/
+.person{
+    height: 30px;
+    position: absolute;
+    left: 1370px;
+    top: 120px;
+    z-index: 100;
+}
+
+.person a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: rgb(13, 59, 129);
+    font-size: 25px;
+    padding: 0px 5px;
+}
+
+.person a:hover{
+    color: #ce3636;
+}
+
+.person span{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #777777;
+    font-size: 25px;
+}
+/*导航栏*/
+.nav{
+    height: 50px;
+    background-color:#e8e7e3;
+    z-index: 100;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 3);
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-size: 25px;
+    padding: 0px 37.5px;
+}
+
+.nav li{
+    float: left;
+    line-height: 50px;
+}
+
+.nav a:hover{
+    background-color: #3f3f3f;
+    color: #e8e7e3;
+}
+/*回到顶部*/
+.huizhang {
+    position: fixed;
+    left: 94%;
+    top: 81%;
+    z-index: 100;
+}
+
+.kenantubiao{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.kenantubiao img{
+    height: 108px;
+    width: 344.8px;
+}
+
+.zhenxiang {
+    position: absolute;
+    left: 390px;
+    top: 43px;
+}
+/*字体*/
+@font-face {
+    font-family: 'yuweixingshu';
+    src: url('../font/禹卫书法行书简体.TTF');
+}
+
+@font-face {
+    font-family: 'hanyiyaya';
+    src: url('../font/汉仪丫丫体简.TTF');
+}
+
+@font-face {
+    font-family: 'COURGETTE-REGULAR';
+    src: url('../font/COURGETTE-REGULAR.TTF');
+}
+
+@font-face {
+    font-family: 'hanyilihei';
+    src: url('../font/汉仪立黑简.TTF');
+}
+
+@font-face {
+    font-family: 'CABINSKETCH-REGULAR';
+    src: url('../font/CABINSKETCH-REGULAR.TTF');
+}
+
+li{
+    list-style: none;
+}
+/*剧场版*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.juchangban{
+    width: 40px;
+    height: 520px;
+    background-color: white;
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+
+.juchangban span{
+    font-size: 40px;
+    font-family: yuweixingshu;
+}
+
+.box {
+    width: 1200px;
+    height: 520px;
+    margin: 200px auto;
+    overflow: hidden;
+    transition: all .3s;
+    position: absolute;
+    top: 500px;
+    left: 240px;
+}
+.box li {
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 520px;
+    transition: all .3s;
+}
+.box li .text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(0,0,0,.3);
+}
+.box:hover li {
+    width: 160px;
+}
+.box li:hover {
+    width: 300px;
+}
+/*剧情简介*/
+.juqingjianjie{
+    width: 400px;
+    height: 400px;
+    float: left;
+    position: relative; 
+    overflow: hidden; 
+    text-align: left; 
+    border: 4px solid #fff;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.juqingjianjie .textdiv{
+    opacity: 0.9; 
+    position: absolute; 
+    top:50%;
+    left: 50%; 
+    transition: 0.6s; 
+    background-color: #fff; 
+    width: 0%;
+    height: 0;
+}
+.juqingjianjie img{
+    box-sizing: border-box;
+    transition: 0.6s;
+}
+.juqingjianjie:hover img{
+    transform: scale(1.3);
+}
+.juqingjianjie h3{
+    font-size: 20px;
+    opacity: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.juqingjianjie p{
+    font-weight: 300; 
+    line-height: 20px; 
+    font-size: 14px; 
+    opacity: 0;
+}
+.juqingjianjie:hover .textdiv{
+    top:0;
+    left: 0;
+    height: 100%; 
+    width: 100%;
+}
+.juqingjianjie:hover h3{
+    opacity: 0.9;
+}
+.juqingjianjie:hover p{
+    opacity: 0.9;
+}
+/*道具设定*/
+table{
+    border: solid 5px black;
+    position: relative;
+    left: 750px;
+    top: 200px;
+    background-color: darkgray;
+}
+
+.daoju{
+    width: 220px;
+    height: 170px;
+    float: left;
+    position: relative; 
+    overflow: hidden; 
+    text-align: left; 
+    border: 4px solid #fff;
+}
+.daoju .textdiv{
+    position: absolute; 
+    background-color: #fff; 
+    color: #111111;
+    top:-100%;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    transform: rotateX(360deg);
+}
+.daoju img{
+    box-sizing: border-box;
+    transition: 0.6s;
+    margin-top: 20%;
+}
+.daoju:hover img{
+    opacity: 0;
+}
+.daoju:hover .textdiv{
+    opacity: 0.9;
+    top:0;
+    transform: none;
+
+}
+.daoju h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.daoju p{
+    font-weight: 300; 
+    line-height: 20px; 
+    font-size: 14px; 
+}
+
+table span{
+    font-size: 25px;
+    margin-left: 40%;
+}
+
+.footer{
+    position: absolute;
+    top: 1280px;
+	width:100%; 
+	height:120px; 
+	line-height:60px; 
+	text-align:center; 
+	background:#463c52; 
+	color:#FFF;
+}

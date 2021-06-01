@@ -1,0 +1,155 @@
+/*背景图片*/
+body{
+    background-image: url(../img/墙.png);
+}
+/*登录注册*/
+.person{
+    height: 30px;
+    position: absolute;
+    left: 1370px;
+    top: 120px;
+    z-index: 100;
+}
+
+.person a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: rgb(13, 59, 129);
+    font-size: 25px;
+    padding: 0px 5px;
+}
+
+.person a:hover{
+    color: #ce3636;
+}
+
+.person span{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #777777;
+    font-size: 25px;
+}
+/*导航栏*/
+.nav{
+    height: 50px;
+    background-color:#e8e7e3;
+    z-index: 100;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 3);
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-size: 25px;
+    padding: 0px 37.5px;
+}
+
+.nav li{
+    float: left;
+    line-height: 50px;
+}
+
+.nav a:hover{
+    background-color: #3f3f3f;
+    color: #e8e7e3;
+}
+/*回到顶部*/
+.huizhang {
+    position: fixed;
+    left: 94%;
+    top: 81%;
+    z-index: 100;
+}
+
+.kenantubiao{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.kenantubiao img{
+    height: 108px;
+    width: 344.8px;
+}
+
+.zhenxiang {
+    position: absolute;
+    left: 390px;
+    top: 43px;
+}
+/*字体*/
+@font-face {
+    font-family: 'yuweixingshu';
+    src: url('../font/禹卫书法行书简体.TTF');
+}
+
+@font-face {
+    font-family: 'hanyiyaya';
+    src: url('../font/汉仪丫丫体简.TTF');
+}
+
+@font-face {
+    font-family: 'COURGETTE-REGULAR';
+    src: url('../font/COURGETTE-REGULAR.TTF');
+}
+
+@font-face {
+    font-family: 'hanyilihei';
+    src: url('../font/汉仪立黑简.TTF');
+}
+
+@font-face {
+    font-family: 'CABINSKETCH-REGULAR';
+    src: url('../font/CABINSKETCH-REGULAR.TTF');
+}
+
+.shipin{
+    position:absolute;
+    left: 300px;
+    top: 320px;
+}
+
+.shipin video{
+    width: 900px;
+}
+
+.xiaoxinlan{
+    border-radius: 100px;
+    position:absolute;
+    top: 150px;
+    left: -10px;
+}
+
+/*图片展示--滚动效果*/
+.imgbox{
+	width:1300px;
+	padding:0 20px;
+	white-space:nowrap;
+    overflow:hidden;
+    position: absolute;
+    left: 100px;
+    top: 1000px;
+}
+.imgbox img{
+	width:226px; 
+	height:129px; 
+	padding:2px;
+}
+.imgbox a{margin-right:20px;}
+
+.footer{
+    position: absolute;
+    top: 1180px;
+	width:100%; 
+	height:120px; 
+	line-height:60px; 
+	text-align:center; 
+	background:#463c52; 
+	color:#FFF;
+}

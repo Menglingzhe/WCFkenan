@@ -1,0 +1,157 @@
+body{
+	background-image: url(../img/墙.png);
+}
+
+.person{
+	height: 30px;
+	position: absolute;
+	left: 1370px;
+	top: 130px;
+	z-index: 100;
+}
+
+.person a{
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: rgb(13, 59, 129);
+	font-size: 25px;
+	padding: 0px 5px;
+}
+
+.person a:hover{
+	color: #ce3636;
+}
+
+.person span{
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #777777;
+	font-size: 25px;
+}
+
+.nav{
+	height: 50px;
+	background-color:#e8e7e3;
+	z-index: 100;
+	box-shadow: 10px 10px 10px rgba(0,0,0, 3);
+	position: absolute;
+	left: 1000px;
+	top: 50px;
+}
+
+.nav a{
+	display: block;
+	text-decoration: none;
+	color: #777777;
+	font-size: 25px;
+	padding: 0px 37.5px;
+}
+
+.nav li{
+	float: left;
+	line-height: 50px;
+}
+
+.nav a:hover{
+	background-color: #3f3f3f;
+	color: #e8e7e3;
+}
+
+.huizhang {
+	position: fixed;
+	left: 93%;
+	top: 81%;
+	z-index: 100;
+}
+
+.kenantubiao{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
+.kenantubiao img{
+	height: 108px;
+	width: 344.8px;
+}
+
+.zhenxiang {
+	position: absolute;
+	left: 390px;
+	top: 43px;
+}
+
+@font-face {
+	font-family: 'yuweixingshu';
+	src: url('../font/禹卫书法行书简体.TTF');
+}
+
+@font-face {
+	font-family: 'hanyiyaya';
+	src: url('../font/汉仪丫丫体简.TTF');
+}
+
+.xinwen{
+	position: absolute;
+	height: 800px;
+	width: 1210px;
+    left: 150px;
+    top: 200px;
+	background:url(../img/资讯页背景.png);
+	border-radius: 20px;
+}
+
+#news{
+	width:980px; 
+	height:300px; 
+    margin:18px auto; 
+    margin-bottom: 0px;
+	padding-top:80px;
+}
+
+.news_con{
+	width:294px; 
+	height:100px; 
+	float:left; 
+	margin-left:29px;
+}
+
+.news_con .one{
+	width:284px; 
+	height:50px; 
+	padding-left:10px;
+	line-height:50px; 
+	font-weight:bold; 
+	font-size:16px; 
+	border-bottom:1px solid rgb(204, 31, 31);
+}
+
+.news_con .two{
+	width:284px;
+	height:70px;
+	line-height:20px; 
+	padding:10px 0 0 10px; 
+	font-size:14px; 
+	color:#333; 
+}
+
+.news_con .one a:link,a:visited{
+    text-decoration: none;
+}
+
+.picture{
+    border-radius:15px;
+}
+
+.footer{
+    position: absolute;
+    top: 1080px;
+	width:100%; 
+	height:120px; 
+	line-height:60px; 
+	text-align:center; 
+	background:#463c52; 
+	color:#FFF;
+}

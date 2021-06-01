@@ -1,0 +1,367 @@
+/*背景图片*/
+body{
+    background-image: url(../img/墙.png);
+}
+/*登录注册*/
+.person{
+    height: 30px;
+    position: absolute;
+    left: 1370px;
+    top: 120px;
+    z-index: 100;
+}
+
+.person a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: rgb(13, 59, 129);
+    font-size: 25px;
+    padding: 0px 5px;
+}
+
+.person a:hover{
+    color: #ce3636;
+}
+
+.person span{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #777777;
+    font-size: 25px;
+}
+/*导航栏*/
+.nav{
+    height: 50px;
+    background-color:#e8e7e3;
+    z-index: 100;
+    box-shadow: 10px 10px 10px rgba(0,0,0, 3);
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-size: 25px;
+    padding: 0px 37.5px;
+}
+
+.nav li{
+    float: left;
+    line-height: 50px;
+}
+
+.nav a:hover{
+    background-color: #3f3f3f;
+    color: #e8e7e3;
+}
+/*回到顶部*/
+.huizhang {
+    position: fixed;
+    left: 94%;
+    top: 81%;
+    z-index: 100;
+}
+
+.kenantubiao{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.kenantubiao img{
+    height: 108px;
+    width: 344.8px;
+}
+
+.zhenxiang {
+    position: absolute;
+    left: 390px;
+    top: 43px;
+}
+/*字体*/
+@font-face {
+    font-family: 'yuweixingshu';
+    src: url('../font/禹卫书法行书简体.TTF');
+}
+
+@font-face {
+    font-family: 'hanyiyaya';
+    src: url('../font/汉仪丫丫体简.TTF');
+}
+
+@font-face {
+    font-family: 'COURGETTE-REGULAR';
+    src: url('../font/COURGETTE-REGULAR.TTF');
+}
+
+@font-face {
+    font-family: 'hanyilihei';
+    src: url('../font/汉仪立黑简.TTF');
+}
+
+@font-face {
+    font-family: 'CABINSKETCH-REGULAR';
+    src: url('../font/CABINSKETCH-REGULAR.TTF');
+}
+
+/*搜索框*/
+.search-wrapper{
+    position: absolute;
+    left: 530px;
+    top: 48px;
+    width: 386px;
+    height: 50px;
+    background-color: red;
+}
+
+.search-wrapper .search-inp{
+   box-sizing: border-box;
+   float: left;
+   padding: 0 10px;
+   height: 50px;
+   width: 334px;
+   font-size: 16px;
+   border: 1px solid rgb(224, 224, 224);
+   outline: none;
+}
+
+.search-wrapper .search-inp:focus
+.search-wrapper .search-inp:focus + button{
+   outline: #ff6700;
+}
+
+.search-wrapper .search-btn{
+    float: left;
+    height: 50px;
+    width: 52px;
+    padding: 0;
+    border: 1px solid rgb(224, 224, 224);
+    border-left: none;
+    background-color: #fff;
+}
+
+.search-wrapper .search-btn:hover{
+    background-color: #ff6700;
+    color:white;
+    border: none;
+}
+
+/*轮播图*/
+.banner{
+    height: 562px;
+    width: 750px;
+    position: relative;
+    left: 330px;
+    top: 180px;
+    border: black solid;
+}
+
+.one{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.banner .banner_pic .pic{
+    display:none;
+
+}
+.banner .banner_pic .current{
+    display:block;
+}
+
+.banner ol{
+	position:absolute; 
+	left:50%; 
+	top:90%;
+	margin-left:-62px;
+}
+
+.banner ol .but{
+	float:left; 
+	width:28px; 
+	height:1px; 
+	border:1px solid #d6d6d6; 
+	margin-right:20px;
+}
+
+.banner ol li{
+    cursor:pointer;
+}
+
+.banner ol .current{
+	background:#90d1d5; 
+	float:left; 
+	width:28px; 
+	height:1px; 
+	border:1px solid #90d1d5; 
+	margin-right:20px;
+}
+/*放映机*/
+.jingxi{
+    position: absolute;
+    left: 50px;
+    top: 530px;
+}
+
+.fangyingji{
+    width: 60px;
+    height: 200px;
+    position:absolute;
+    left: 70px;
+}
+
+.fangyingji img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*工藤新一*/
+.gtxy{
+    position: absolute;
+    left: 1200px;
+    top: 355px;
+}
+/*时间线*/
+.timeline{
+    width: 100%;
+    position: absolute;
+    top: 800px;
+}
+
+.time1{
+    width: 100%; 
+    background-color: rgb(250, 246, 8);
+}
+.time1 dl{
+	width:980px;
+	height:160px;
+	margin-left:350px;
+}
+.time1 dt{
+	width:145px; 
+	background:url(../img/time1.png) center center no-repeat; 
+    height:170px;
+	float:left;
+}
+.time1 dd{
+	width:780px; 
+	padding:55px 0 0 30px; 
+	float:left;
+}
+.time1 .txt{
+	color:white; 
+	line-height:24px;
+}
+.time2{
+    width:100%; 
+    background-color:white;
+}
+.time2 dl{
+	width:980px;
+	height:180px;
+	margin-left:250px;
+}
+.time2 dt{
+	width:145px; 
+	background:url(../img/time2.png) center center no-repeat; 
+	height:170px; 
+	float:right;
+}
+.time2 dd{
+	width:600px; 
+	padding:40px 0 0 30px; 
+	float:left;
+}
+.time2 .txt{
+	color:black; 
+	line-height:24px;
+}
+.time3{
+	width:100%; 
+	background-color: rgb(250, 246, 8);
+}
+.time3 dl{
+	width:980px;
+	height:180px;
+	margin-left:300px;
+}
+.time3 dt{
+	width:145px; 
+	background:url(../img/time3.png) center center no-repeat; 
+	height:170px; 
+	float:left;
+}
+.time3 dd{
+	width:780px; 
+	padding:40px 0 0 30px; 
+	float:left;
+}
+.time3 .txt{
+	color:white; 
+	line-height:24px;
+}
+.time4{
+	width:100%; 
+	background-color: white;
+}
+.time4 dl{
+	width:980px;
+	height:180px;
+	margin-left:250px;
+}
+.time4 dt{
+	width:145px; 
+	background:url(../img/time4.png) center center no-repeat; 
+	height:170px; 
+	float:right;
+}
+.time4 dd{
+	width:780px; 
+	padding:40px 0 0 30px; 
+	float:left;
+}
+.time4 .txt{
+	color:black; 
+	line-height:24px;
+}
+.time5{
+	width:100%; 
+	background-color: rgb(250, 246, 8);
+}
+.time5 dl{
+	width:980px;
+	height:180px;
+	margin-left:300px;
+}
+.time5 dt{
+	width:145px; 
+	background:url(../img/time5.png) center center no-repeat; 
+	height:170px; 
+	float:left;
+}
+.time5 dd{
+	width:780px; 
+	padding:55px 0 0 30px; 
+	float:left;
+}
+.time5 .txt{
+	color:white; 
+	line-height:24px;
+}
+
+.footer{
+    position: absolute;
+    top: 1680px;
+	width:100%; 
+	height:120px; 
+	line-height:60px; 
+	text-align:center; 
+	background:#463c52; 
+	color:#FFF;
+}
